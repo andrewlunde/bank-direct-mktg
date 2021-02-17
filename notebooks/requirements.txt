@@ -1,0 +1,5 @@
+hana_ml
+ipykernel
+pythonping
+numpy
+matplotlib
