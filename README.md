@@ -63,8 +63,8 @@ PATH='/Library/Frameworks/Python.framework/Versions/3.9/bin:/Library/Frameworks/
 echo "hana-ml" > requirements.txt
 pip install -r requirements.txt
 
-cf create-service hana schema BANK_SCH
-cf create-service-key BANK_SCH BANK_key
-cf service-key BANK_SCH BANK_key
+cf create-service hana schema BANK_DIR_MKTG -c '{"database_id":"ffa845c4-c70e-4774-ba37-c0a6fdf16850","schema":"BANK_DIR_MKTG"}'
+cf create-service-key BANK_DIR_MKTG BANK_Key
+cf service-key BANK_DIR_MKTG BANK_Key
 
 ```

@@ -1,4 +1,4 @@
-hana-ml
+hana-ml==2.6.21012600
 ipykernel
 pythonping
 numpy
