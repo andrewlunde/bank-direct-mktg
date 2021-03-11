@@ -1,4 +1,4 @@
-hana_ml
+hana-ml
 ipykernel
 pythonping
 numpy
